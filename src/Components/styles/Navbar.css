@@ -1,0 +1,55 @@
+.Navbar {
+  height: 75px;
+  background-color: #05053b;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  /* padding-left: 90px;
+  padding-right: 90px; */
+}
+.navbarleft {
+  display: flex;
+  width: 30%;
+  border: 1px solid black;
+}
+.navbarleft > img {
+  height: 77px;
+  width: 100px;
+  justify-items: center;
+  padding: 8px;
+}
+.navbarleft > div {
+  width: 60%;
+  margin: auto;
+  color: white;
+  padding: 10px;
+}
+/* .navbarleft > div::after {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+}
+.navbarleft > div::after {
+  width: 100%;
+} */
+.navbarrigth {
+  border: 1px solid black;
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+}
+.navbarrigth > div {
+  color: white;
+  margin: auto;
+}
+.navbarrigth > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#pop {
+  display: flex;
+  justify-content: space-between;
+}
