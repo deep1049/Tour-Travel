@@ -1,0 +1,126 @@
+.Footer {
+  width: 70%;
+  /* border: 1px solid black; */
+  margin: auto;
+}
+.Footer > .box1 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  /* border: 1px solid red; */
+}
+.Footer > .box1 > .left {
+  width: 35%;
+  height: 100%;
+}
+.Footer > .box1 > .left > img {
+  height: 100%;
+  width: 100%;
+}
+.Footer > .box1 > .rigth {
+  width: 65%;
+  height: 100%;
+  /* border: 2px solid blue; */
+  display: flex;
+}
+.Footer > .box1 > .rigth > .scanleft {
+  width: 70%;
+  height: 100%;
+  /* border: 1px solid rgb(159, 18, 41); */
+  padding-left: 10px;
+}
+.Footer > .box1 > .rigth > .scanleft > h1 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.Footer > .box1 > .rigth > .scanleft > div > ul > li {
+  color: grey;
+}
+.Footer > .box1 > .rigth > .scanleft > div {
+  padding-left: 20px;
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom {
+  margin-top: 10px;
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom > p {
+  color: grey;
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom > div > input {
+  /* border: 1px solid black; */
+  border: 1px solid grey;
+  width: 28%;
+  height: 40px;
+  padding: 6px;
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom > div > input:last-child {
+  background-color: rgb(231, 68, 68);
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom > div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.Footer > .box1 > .rigth > .scanleft > .scanbottom > h2 {
+  font-size: 30px;
+  font-weight: normal;
+}
+.Footer > .box1 > .rigth > .scanrigth {
+  width: 30%;
+  height: 100%;
+  /* border: 1px solid rgb(159, 18, 41); */
+}
+.Footer > .box1 > .rigth > .scanrigth > div > h2 {
+  font-weight: bolder;
+  padding-left: 25px;
+}
+.Footer > .box2 {
+  width: 100%;
+  height: 200px;
+  margin: auto;
+  /* border: 1px solid blue; */
+  margin-top: 10px;
+}
+.Footer > .box2 > div > .box2flex {
+  display: flex;
+}
+.Footer > .box2 > div > .box2flex2 {
+  display: flex;
+}
+.Footer > .box2 > h1 {
+  font-weight: bolder;
+  font-size: xx-large;
+
+  padding: 20px;
+}
+.Footer > .box3 {
+  width: 100%;
+  height: 430px;
+  margin: auto;
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.Footer > .box3 > div {
+  /* border: 1px solid magenta; */
+  width: 20%;
+}
+.Footer > .box3 > div > p {
+  color: rgb(11, 64, 64);
+
+  margin-top: 15px;
+}
+.Footer > .box3 > div > p :hover {
+  line-height: 1rem;
+}
+.Footer > .box3 > div:first-child {
+  color: rgb(12, 12, 51);
+  font-size: larger;
+  font-weight: bolder;
+}
+.Footer > .box3 > div > h2 {
+  font-size: larger;
+  font-weight: bolder;
+}
