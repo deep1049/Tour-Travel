@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
 .Navbar {
   height: 75px;
   background-color: #05053b;
@@ -13,7 +18,7 @@
   border: 1px solid black;
 }
 .navbarleft > img {
-  height: 77px;
+  height: 60px;
   width: 100px;
   justify-items: center;
   padding: 8px;
@@ -23,6 +28,16 @@
   margin: auto;
   color: white;
   padding: 10px;
+}
+.navbarleft > div > select {
+  background-color: #05053b;
+  color: white;
+  font-size: large;
+  border: 0;
+}
+.navbarleft > div > select > option {
+  width: auto;
+  height: 500px;
 }
 /* .navbarleft > div::after {
   content: "";
@@ -45,6 +60,7 @@
 .navbarrigth > div {
   color: white;
   margin: auto;
+  cursor: pointer;
 }
 .navbarrigth > div:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
