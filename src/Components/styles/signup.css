@@ -1,0 +1,42 @@
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+}
+.formsignup {
+  width: 300px;
+  height: 370px;
+  border: 1px solid black;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  margin: auto;
+  padding-top: 10px;
+  border-radius: 0 20px 0 20px;
+}
+.formdiv > h1 {
+  justify-content: center;
+  margin: auto;
+}
+.formdiv {
+  display: grid;
+  gap: 20px;
+}
+.formdiv > input {
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
+}
+.formdiv > input:last-child {
+  background-color: brown;
+  margin-top: 10px;
+  color: white;
+}
+.signin {
+  margin: auto;
+  margin-left: 35px;
+  margin-top: 15px;
+}

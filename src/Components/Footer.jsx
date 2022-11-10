@@ -1,5 +1,4 @@
 import "./styles/Footer.css";
-import { Flex, Select, Stack } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
@@ -51,44 +50,48 @@ const Footer = () => {
         <h1>More destinations</h1>
         <div>
           <div className=" box2flex">
-            <Select placeholder="Destination deals" pl={2}>
-              <option value="Option 1">Fligt under 2000</option>
+            <select value="Destination deals">
+              <option value="Option 1">Destination deals</option>
               <option value="Option 2">Travels Deals</option>
               <option value="Option 3">Hostel under 1000</option>
               <option value="Option 4">Deep travel coupon</option>
               <option value="Option 5">Car rental Deals</option>
-            </Select>
-            <Select placeholder="Top Hotel beach destinations" pl={2}>
-              <option value="option1">Option 1</option>
+              <option value="Option 6">Fligt under 2000</option>
+            </select>
+            <select placeholder="Top Hotel beach destinations">
+              <option value="option1">Top Hotel beach destinations</option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
-            </Select>
-            <Select placeholder="Top Hotel city destinations" pl={2}>
-              <option value="option1">Option 1</option>
+              <option value="option1">Option 4</option>
+            </select>
+            <select placeholder="Top Hotel city destinations">
+              <option value="option1">Top Hotel city destinations</option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
-            </Select>
+              <option value="option4">Option 1</option>
+            </select>
           </div>
           <div className=" box2flex2">
-            <Select placeholder="Top vacation Destination" pl={2} pt={2}>
-              <option value="Option 1">Goa Vacations</option>
+            <select value="Top vacation Destination">
+              <option value="Option 1">Top vacation Destination</option>
               <option value="Option 2">Maldives Vacations</option>
               <option value="Option 3">Autralia Vacations</option>
-            </Select>
-            <Select placeholder="Top Fligth Destination" pl={2} pt={2}>
-              <option value="option1">Option 1</option>
+              <option value="Option 4">Goa Vacations</option>
+            </select>
+            <select placeholder="Top Fligth Destination">
+              <option value="option1">Top Fligth Destination</option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
-            </Select>
-            <Select
-              placeholder="Top car rental Destination in India"
-              pl={2}
-              pt={2}
-            >
-              <option value="option1">Option 1</option>
+              <option value="option4">Option 1</option>
+            </select>
+            <select placeholder="Top car rental Destination in India">
+              <option value="option1">
+                Top car rental Destination in India
+              </option>
               <option value="option2">Option 2</option>
               <option value="option3">Option 3</option>
-            </Select>
+              <option value="option1">Option 4</option>
+            </select>
           </div>
         </div>
       </div>
