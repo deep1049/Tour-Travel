@@ -15,13 +15,14 @@
 .navbarleft {
   display: flex;
   width: 30%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .navbarleft > img {
-  height: 60px;
+  height: 80px;
   width: 100px;
   justify-items: center;
   padding: 8px;
+  cursor: pointer;
 }
 .navbarleft > div {
   width: 60%;
@@ -34,6 +35,7 @@
   color: white;
   font-size: large;
   border: 0;
+  cursor: pointer;
 }
 .navbarleft > div > select > option {
   width: auto;
@@ -52,7 +54,7 @@
   width: 100%;
 } */
 .navbarrigth {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   width: 40%;
   justify-content: space-around;

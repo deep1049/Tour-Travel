@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.searchPage {
+  border-bottom: 1px solid grey;
+}
+.rooms {
+  display: flex;
+  /* justify-content: space-around; */
+  margin: auto;
+  margin-top: 25px;
+  /* border: 1px solid black; */
+  width: 95%;
+  height: 270px;
+  padding: 10px;
+}
+.rooms > div {
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+.rooms > div:nth-child(2) {
+  /* border: 1px solid black; */
+  margin: auto;
+  justify-content: center;
+  width: 40%;
+  color: rgb(7, 90, 62);
+}
+
+.rooms > div:nth-child(3) {
+  width: 15%;
+  margin: auto;
+  justify-content: center;
+  color: brown;
+}
+.rooms > div:nth-child(3) > h2 {
+  color: rgb(7, 90, 62);
+}
+/* .rooms > div :first-child {
+  width: 35%;
+} */
+
+.rooms > button {
+  width: 120px;
+  height: 50px;
+  margin: auto;
+  color: white;
+  background-color: brown;
+  border: 0;
+  font-size: large;
+  border-radius: 5px;
+}
+.rooms > div > img {
+  height: 100%;
+  border-radius: 10px;
+  width: 350px;
+}

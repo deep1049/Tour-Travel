@@ -8,6 +8,8 @@
   /* border: 1px solid black; */
   height: 1300px;
   margin: auto;
+  margin-top: 50px;
+  border-top: 1px solid grey;
 }
 .Footer > .box1 {
   width: 100%;

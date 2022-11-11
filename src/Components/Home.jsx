@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import "./styles/Home.css";
 import DatePicker from "react-date-picker";
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 const NAVS = [
   "Stays",
   "Flights",
@@ -12,6 +13,11 @@ const NAVS = [
   "Cruises",
 ];
 const Home = () => {
+  const navigateTo = useNavigate();
+  const GoTo = (path) => {
+    console.log("path", path);
+    navigateTo(path);
+  };
   const [value, onChange] = useState(new Date());
   const [active, setActive] = useState("Stays");
   const IsActive = (data) => {
@@ -66,12 +72,26 @@ const Home = () => {
                 Add a Flight
               </label>
               <label>
-                <input type="checkbox" />
+                <input type="checkbox" style={{ marginLeft: "20px" }} />
                 Add a Car
               </label>
             </div>
             <div>
-              <button>Search</button>
+              <button
+                onClick={() => GoTo("/searchHotel")}
+                style={{
+                  "margin-left": "190px",
+                  marginTop: "10px",
+                  color: "white",
+                  backgroundColor: "red",
+                  border: "0",
+                  height: "42px",
+                  width: "120px",
+                  "border-radius": "10px",
+                }}
+              >
+                Search
+              </button>
             </div>
           </div>
           <div></div>
