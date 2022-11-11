@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 import "./styles/signup.css";
 
 const Signup = () => {
@@ -28,53 +29,56 @@ const Signup = () => {
     navigateTo("/login");
   };
   return (
-    <div className="signup">
-      <form className="formsignup" onSubmit={HandleSubmit}>
-        <div className="formdiv">
-          <h1>Sign Up</h1>
+    <div>
+      <Navbar />
+      <div className="signup">
+        <form className="formsignup" onSubmit={HandleSubmit}>
+          <div className="formdiv">
+            <h1>Sign Up</h1>
 
-          <input
-            name="name"
-            type="text"
-            placeholder="Name"
-            value={formData.name}
-            onChange={HandleChange}
-            required
-          />
-          <input
-            name="email"
-            type="email"
-            placeholder="Email"
-            value={formData.email}
-            onChange={HandleChange}
-            required
-          />
-          <input
-            name="password"
-            type="password"
-            placeholder="Password"
-            value={formData.password}
-            onChange={HandleChange}
-            required
-          />
-          <input
-            name="confirm_password"
-            type="password"
-            placeholder="Confirm Password"
-            value={formData.confirm_password}
-            onChange={HandleChange}
-            required
-          />
-          <input type="submit" value="Submit" />
-        </div>
-        <span>
-          <div className="signin">
-            <p>
-              Already registered ? <a href="/login">Sign In</a>
-            </p>
+            <input
+              name="name"
+              type="text"
+              placeholder="Name"
+              value={formData.name}
+              onChange={HandleChange}
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              value={formData.email}
+              onChange={HandleChange}
+              required
+            />
+            <input
+              name="password"
+              type="password"
+              placeholder="Password"
+              value={formData.password}
+              onChange={HandleChange}
+              required
+            />
+            <input
+              name="confirm_password"
+              type="password"
+              placeholder="Confirm Password"
+              value={formData.confirm_password}
+              onChange={HandleChange}
+              required
+            />
+            <input type="submit" value="Submit" />
           </div>
-        </span>
-      </form>
+          <span>
+            <div className="signin">
+              <p>
+                Already registered ? <a href="/login">Sign In</a>
+              </p>
+            </div>
+          </span>
+        </form>
+      </div>
     </div>
   );
 };

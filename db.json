@@ -1,0 +1,93 @@
+{
+  "hotels": [
+    {
+      "id": 1,
+      "img": "/images/hotel1.jpg",
+      "name": "The Lodhi - A member of The Leading Hotels of the world",
+      "price": 2999,
+      "rating": " 4.7(428)"
+    },
+    {
+      "id": 2,
+      "img": "/images/hotel2.jpg",
+      "name": "The Leela Palace New Delhi ",
+      "price": 2699,
+      "rating": " 4.7(258)"
+    },
+    {
+      "id": 3,
+      "img": "/images/hotel3.jpg",
+      "name": " Taj Palace , New Delhi",
+      "price": 3999,
+      "rating": " 4.6(53)",
+      " idtype": "combo",
+      " prodID": "2"
+    },
+    {
+      "id": 4,
+      "img": "/images/hotel4.jpg",
+      "name": "Shangri-La Eros, New Delhi",
+      "price": 2599,
+      "idtype": "eye",
+      "rating": "4.8(87)"
+    },
+    {
+      "id": 5,
+      "img": "/images/hotel5.jpg",
+      "name": "The Oberoi, New Delhi",
+      "price": 6999,
+      "idtype": "foundation",
+      "rating": " 4.8(121)"
+    },
+    {
+      "id": 6,
+      "img": "/images/hotel6.jpg",
+      "name": " Haritma Resort",
+      "price": 2399,
+      "rating": "4.7(154)",
+      "idtype": "combo"
+    },
+    {
+      "id": 7,
+      "img": "/images/hotel7.jpg",
+      "name": "The Leela Ambience Gurugram Hotel & Residences",
+      "price": 6599,
+      "rating": "4.5(98)",
+      "idtype": "combo"
+    },
+    {
+      "id": 8,
+      "img": "/images/hotel8.jpg",
+      "name": "The Oberoi Gurgaon",
+      "price": 5879,
+      "rating": "4.4(90)",
+      "idtype": "combo"
+    },
+    {
+      "img": "sdasdasda",
+      "name": "fsdadasd",
+      "price": 232,
+      "rating": 123123,
+      "idtype": "combo",
+      "id": 13
+    },
+    {
+      "img": "qweqe",
+      "name": "qweqw",
+      "price": 232,
+      "rating": 23123,
+      "idtype": "combo",
+      "id": 17
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

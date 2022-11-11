@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="navbarleft">
-        <img src="/images/logo.png" alt="logo" />
+        <img src="/images/logo.png" alt="logo" onClick={() => GoTo("/")} />
         <div>
           <select value="">
             <option value="" disabled selected hidden>
@@ -33,7 +33,7 @@ const Navbar = () => {
         <div>List your Property</div>
         <div>Support</div>
         <div>Trips</div>
-        <div onClick={() => GoTo("/signup")}>Sign In</div>
+        <div onClick={() => GoTo("/login")}>Sign In</div>
       </div>
     </div>
   );
