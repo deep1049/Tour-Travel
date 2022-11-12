@@ -62,22 +62,6 @@
       "price": 5879,
       "rating": "4.4(90)",
       "idtype": "combo"
-    },
-    {
-      "img": "sdasdasda",
-      "name": "fsdadasd",
-      "price": 232,
-      "rating": 123123,
-      "idtype": "combo",
-      "id": 13
-    },
-    {
-      "img": "qweqe",
-      "name": "qweqw",
-      "price": 232,
-      "rating": 23123,
-      "idtype": "combo",
-      "id": 17
     }
   ],
   "comments": [

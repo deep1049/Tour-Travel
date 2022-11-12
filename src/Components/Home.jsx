@@ -16,8 +16,9 @@ const Home = () => {
   const navigateTo = useNavigate();
   const GoTo = (path) => {
     console.log("path", path);
-    navigateTo(path);
+    navigateTo(`${path}?city=${location}`);
   };
+  const [location, setLocation] = useState("");
   const [value, onChange] = useState(new Date());
   const [active, setActive] = useState("Stays");
   const IsActive = (data) => {
@@ -25,6 +26,10 @@ const Home = () => {
       return "active";
     }
     return "";
+  };
+  const HandleChange = (event) => {
+    const { name, value } = event.target;
+    setLocation(value);
   };
   return (
     <div className="main">
@@ -50,7 +55,12 @@ const Home = () => {
               </ul>
             </div>
             <div className="fields">
-              <input placeholder="Going To" className="going" />
+              <input
+                value={location}
+                placeholder="Going To"
+                onChange={HandleChange}
+                className="going"
+              />
               <label>
                 Check In
                 <DatePicker onChange={onChange} value={value} />

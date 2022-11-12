@@ -4,6 +4,8 @@ import { transitions, positions, Provider as AlertProvider } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
 import "./index.css";
 import App from "./App";
+import "reactjs-popup/dist/index.css";
+
 // optional configuration
 const options = {
   // you can also just use 'bottom center'
