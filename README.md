@@ -30,6 +30,7 @@ https://effulgent-paletas-07bd64.netlify.app/
 ## Tech Stack
 
 * ReactJs
+* JSON
 * HTML
 * CSS
 
